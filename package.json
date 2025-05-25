@@ -1,0 +1,14 @@
+{
+  "name": "file-manager-mitso",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "sortFile": "node src/index.js -t sort -i files/input1.txt -o files/output1.txt",
+    "sortManual": "node src/index.js -t sort",
+    "distanceFile": "node src/index.js -t distance -i files/input2.txt -o files/output2.txt",
+    "distanceManual": "node src/index.js -t distance"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
